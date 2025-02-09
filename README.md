@@ -26,7 +26,7 @@ When we are done we can clone the github folder and make link to `dist\ITTC v1.2
 For image load we have to use Dear PyGui explorer. We find our image destionation and confirm choose.     
 
 **Folder explorer**       
-![Second](https://i.imgur.com/t2uIRhQ.png)      
+![Second](https://i.imgur.com/R2YbckQ.png)      
 
 
 ## Software versioning
