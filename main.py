@@ -76,7 +76,7 @@ empty_data = [255, 255, 255, 0]
 with dpg.texture_registry(show=False): #setting default texture for images
     dpg.add_static_texture(1, 1, empty_data, tag="loaded_texture")
 
-with dpg.file_dialog(directory_selector=False, show=False, callback=file_selected_callback, tag="file_dialog", width=700, height=400): #explorer settings
+with dpg.file_dialog(directory_selector=False, show=False, modal=True, callback=file_selected_callback, tag="file_dialog", width=520, height=350): #explorer settings
     dpg.add_file_extension("Image Files (*.png *.jpg *.jpeg *.bmp){.png,.jpg,.jpeg,.bmp}")
 
 with dpg.window(label="ITTC v1.2", width=600, height=590, no_move=True): #main window settings

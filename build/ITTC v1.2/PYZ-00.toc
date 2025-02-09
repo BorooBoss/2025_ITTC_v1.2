@@ -1,4 +1,4 @@
-('C:\\Users\\boris\\Desktop\\project\\build\\ITTC v1.2\\PYZ-00.pyz',
+('C:\\Program Files (x86)\\ITTC\\project\\build\\ITTC v1.2\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\boris\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
@@ -610,7 +610,7 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\utils.py',
    'PYMODULE'),
-  ('extract', 'C:\\Users\\boris\\Desktop\\project\\extract.py', 'PYMODULE'),
+  ('extract', 'C:\\Program Files (x86)\\ITTC\\project\\extract.py', 'PYMODULE'),
   ('fnmatch',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\\Lib\\fnmatch.py',
