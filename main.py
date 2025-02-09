@@ -79,7 +79,7 @@ with dpg.texture_registry(show=False): #setting default texture for images
 with dpg.file_dialog(directory_selector=False, show=False, callback=file_selected_callback, tag="file_dialog", width=700, height=400): #explorer settings
     dpg.add_file_extension("Image Files (*.png *.jpg *.jpeg *.bmp){.png,.jpg,.jpeg,.bmp}")
 
-with dpg.window(label="ICTT v1.1", width=600, height=590): #main window settings
+with dpg.window(label="ITTC v1.2", width=600, height=590, no_move=True): #main window settings
     dpg.add_button(label="Load image", width=190, height=50, callback=lambda: dpg.show_item("file_dialog")) 
     dpg.add_same_line()
     dpg.add_button(label="Exit", width=180, height=50, callback=lambda: dpg.stop_dearpygui())
