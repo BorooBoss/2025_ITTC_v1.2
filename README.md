@@ -1,10 +1,10 @@
 # Image To Text Converterter (ITTC)
 ITTC is **Python** application which uses **Tesseract** library to recongnize text from image. The library was used to get this text in printed form so application output becomes copyable. Simple script from this library
 is located in `extract.py`   
-Application comes with Graphic User Interface without console use. To make GUI look simple, I decided to use Python library "Dear PyGui". 
+Application comes with Graphic User Interface without console use. To make GUI look simple, I decided to use Python library **Dear PyGui**. 
 
 **Application Logo**     
-![First](https://i.imgur.com/LrYu12j.png)
+![First](https://i.imgur.com/ni6wMUV.png)
 ## Installation 
 As I mentioned before, the application uses two Python libraries which are not included originally. To make this work we have to install them manually to our python.     
 
@@ -34,6 +34,7 @@ For image load we have to use Dear PyGui explorer. We find our image destionatio
 **v1.1** Responsible design was made. Script is now able to accept multiple images in a row.    
 **v1.2** Script works as fully standalone application.   
 
-**An example of input and copyable output**      
+
+## An example of input and copyable output         
 ![First](https://i.imgur.com/T8kT5Rq.png)
 
